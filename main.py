@@ -182,6 +182,7 @@ class MainWindow(QMainWindow):
 
         if q.scheme() == 'https':
             # Secure padlock icon
+            #grant access
             self.httpsicon.setPixmap(QPixmap(os.path.join('images', 'lock-ssl.png')))
 
         else:
