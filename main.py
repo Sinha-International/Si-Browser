@@ -199,4 +199,4 @@ app.setOrganizationDomain("MooseAche.org")
 
 window = MainWindow()
 
-app.exec_()
+app.exec_().
